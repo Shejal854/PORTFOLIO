@@ -1,0 +1,102 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the body */
+body {
+    background-color: #0b0c01;
+    background-image: url("BACKGROUND.jpg");
+    background-size: cover;
+  
+}
+
+/* Styling the navigation bar */
+.navigation {
+
+    color: #66fcf1;
+    height: 40px;
+    background-color: #0b0c01;
+}
+
+/* Styling the main navigation links */
+#main {
+    display: flex;
+    width: 50%;
+    margin-left: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+a{
+    color: #66fcf1;
+    text-decoration: none;
+}
+
+/* Styling the main content section */
+.intromain {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Styling the introduction section */
+#intro {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    display: inline-block;
+    margin-top: 250px;
+    height: 250px;
+    width: 50%;
+}
+
+/* Styling the photo section */
+#photo {
+    display: inline-block;
+    height: 500px;
+    margin: 0;
+    width: 50%;
+}
+
+/* Styling the profile photo */
+#photo1 {
+    height: 401px;
+    width: 311px;
+    background-image: url("ME3-removebg-preview.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 78px;
+    margin-top: 155px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 8px rgba(25, 248, 237, 0.7);
+}
+
+/* Styling the greeting text */
+#greet {
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+/* Styling the name text */
+#name {
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+/* Styling the position text */
+#pos {
+    color: #46a29e;
+    margin-left: 100px;
+    font-size: 20px;
+}
+#tag{
+    /* background-color: aquamarine; */
+    height: 50px;
+    width: 200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 70px;
+    padding-top: 10px;
+}
